@@ -1,0 +1,227 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage{url}
+%\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+%\setlength{\headsep}{0pt}
+%\setlength{\topskip}{0pt}
+%\setlength{\topmargin}{0pt}
+%\setlength{\topsep}{0pt}
+%\setlength{\partopsep}{0pt}
+
+\begin{document}
+
+\name{Kaustubh Gadkari}
+% \address used twice to have two lines of address
+\address{37887 Benchmark Ct., Fremont CA 94536}
+\address{Email: kaustubh.gadkari@gmail.com \\
+Phone: +1-970-261-1699}
+%\address{\url{http://www.netsec.colostate.edu/~kaustubh}}
+
+
+\begin{resume}
+
+\section{OBJECTIVE}
+ An full time position in the field of computer networks with special
+               interests in network measurements, scalable forwarding
+               techniques and routing.
+
+
+\section{EDUCATION}
+                {\sl Ph.D.} Computer Science \hfill Spring 2011 - Present\\
+                    Colorado State University, Fort Collins, CO 80523\\
+                    Network Security Group\\
+                    Co-advisers: Dr. Christos Papadopoulos and Dr. Daniel Massey
+
+                {\sl Master's Degree.} Computer Science \hfill Fall 2010\\
+                    Colorado State University, Fort Collins, CO 80523
+
+                {\sl Bachelor of Engineering.} Information Technology \hfill Fall 2006\\
+                	  University of Pune, Pune, India
+
+\section{COURSES \& PROJECTS}
+					{\sl BGPMon} \hfill Spring 2012 - Present
+				\begin{itemize} \itemsep -2pt
+							\item Implemented a system in Perl to automatically archive BGPmon XML streams.
+							\item Code is available via CPAN.
+						\end{itemize}
+
+					{\sl Computer Security} \hfill Fall 2007
+						\begin{itemize} \itemsep -2pt
+						\item Did a comprehensive study of Mandatory Access Control mechanisms, with a focus on SELinux.
+						\end{itemize}
+
+					{\sl Advanced Topics in Computer Security} \hfill Fall 2007
+						\begin{itemize} \itemsep -2pt
+						\item Presented and critiqued computer security themed papers, with a focus on privacy models.
+						\end{itemize}
+
+
+					{\sl Advanced Networking} \hfill Fall 2007
+			 		\begin{itemize} \itemsep -2pt
+                        \item Created an information distribution system that later inspired parts of BGPMon.
+                        \item Researched the benefits of BGP prefix caching.
+                    \end{itemize}
+
+					{\sl Advanced Topics In Networking} \hfill Spring 2008
+					\begin{itemize} \itemsep -2pt
+						\item Implemented testbed using multiple machines and Cisco 2600 routers.
+						\item Measured packet rates required to cause the router to drop packets and deny service to hosts.
+					\end{itemize}
+
+
+					{\sl Internet Engineering} \hfill Spring 2009
+                    \begin{itemize}
+                        \item Implemented reliable transport and shortest path routing protocols over UDP on PlanetLab.
+                        \item Developed a CHORD-based P2P network.
+                    \end{itemize}
+
+					{\sl Image Computation} \hfill Spring 2010
+                    \begin{itemize} \itemsep -2pt
+                        \item Implemented a ray tracer, video stabilizer, and object detection software.
+                    \end{itemize}
+
+
+
+\section{EXPERIENCE}
+	{\sl Network Data Scientist} \hfill July 2015 - Present\\
+	ThousandEyes, Inc.
+	\begin{itemize}
+		\item Analysis of network data to analyze network failures and perform
+			root-cause analysis of failures.
+		\end{itemize}
+	{\sl Internship} \hfill January 2015 - July 2015\\
+	Ooyala, Inc.
+	\begin{itemize}
+		\item Worked on design of data center networks for cloud-based video
+			delivery.
+	\end{itemize}
+	{\sl Internship} \hfill August 2014 - January 2015\\
+	Naddive LLC, Fort Collins CO 80521
+	\begin{itemize}
+		\item Worked on packet inspection techniques to improve live-event video
+			delivery over wirelss networks.
+	\end{itemize}
+    {\sl Internship} \hfill Summer 2011\\
+      Palo Alto Research Center, Palo Alto CA 94304 \\
+      \begin{itemize}
+      \item Worked on performance measurements of ``Content Centric
+		  Networking.''(\url{http://www.ccnx.org}).
+      \item Performance measurements were carried out on PlanetLab (\url{http://www.planet-lab.org/}) and the Open Network
+      Laboratory (\url{https://onl.wustl.edu/}).
+      \item Compared performance of CCN with TCP as well as CDNs such as CoralCDN.
+      \end{itemize}
+
+    {\sl Graduate Research Assistant} \hfill Fall 2009 - Present\\
+        Colorado State University, Fort Collins CO 80523
+        \begin{itemize}  \itemsep -2pt
+				\item {\bf Interests}: Network measurements, routing with reduced tables, content-centric networking.
+            \item Researching new designs for reduced forwarding tables.
+            \item Studied the use of fingerprinting custom TCP/IP stacks to detect botnets.
+            \item Studied the characteristics of TCP resets.
+        \end{itemize}
+
+   {\sl Graduate Teaching Assistant} \hfill Fall 2008 - Fall 2009\\
+        Colorado State University, Fort Collins CO 80523\\
+        Have assisted the following courses:
+        \begin{itemize}  \itemsep -2pt
+            \item CS 457 - Computer Networking and the Internet.
+            \item CS 475 - Parallel Programming
+            \item CS 155 - Introduction to Unix
+            \item CS 156 - Introduction to C, part 1
+            \item CS 157 - Introduction to C, part 2
+         \end{itemize}
+
+    {\sl NDN Hub Operator} \hfill {Fall 2010 - Spring 2013}\\
+     	Colorado State University, Fort Collins CO 80523
+	\begin{itemize} \itemsep -2pt
+		\item Setup and maintain one of the two central hubs of the Named Data
+		Networking Testbed.
+	\end{itemize}
+
+    {\sl Network Security Lab System Administrator} \hfill Fall 2006 - Present\\
+        Colorado State University, Fort Collins CO 80523
+        \begin{itemize} \itemsep -2pt
+            \item Setup and currently maintain the Network Security Group Lab,
+            consisting of 30 rack mounted servers and 5 desktop computers
+            running Ubuntu Linux/FreeBSD and a Cisco router.
+            \item Setup and maintain data capture points at a regional ISP, using
+            specialized packet capture hardware from Endace.
+        \end{itemize}
+
+    {\sl Visiting Lecturer} \hfill 2006\\
+        Symbiosis Institute of Computer Studies and Research, Pune, India
+        \begin{itemize} \itemsep -2pt
+            \item Taught Linux system administration to students pursuing the Master
+            of Science (Computer Applications) degree.
+        \end{itemize}
+
+    {\sl Undergraduate Research} \hfill Fall 2005 - Fall 2006\\
+        SONIX Systems, Pune, India
+        \begin{itemize} \itemsep -2pt
+            \item Worked on a project to develop a process infrastructure for the Linux kernel to allow
+            transparent process migration across cluster nodes.
+        \end{itemize}
+
+\section{PUBLICATIONS}
+            \begin{enumerate}
+              \item {\sl Pragmatic Router FIB Caching}, Kaustubh Gadkari, M. Lawrence Weikum, Dan Massey and
+				  Christos Papadopoulos, Networking 2015, May 2015
+
+		  	\item {\sl A Fresh Look At Scalable Forwarding Through Router FIB Caching}, Kaustubh Gadkari, Dan Massey and
+              Christos Papadopoulos, NANOG 57, February 2013
+
+              \item {\sl Dynamics of Prefix Usage at an Edge Router}, Kaustubh Gadkari, Dan Massey and Christos Papadopoulos,
+              ${12^{th}}$ Passive and Active Measurements Conference (PAM 2011), March 2011
+
+         	  \item {\sl Fingerprinting Custom Botnet Protocol Stacks}, Steve DiBenedetto, Kaustubh Gadkari, Nicholas Diel,
+              Andrea Steiner, Dan Massey and Christos Papadopoulos, Workshop on Secure Network Protocols (NPSec 2010)
+              (in conjunction with ICNP 2010), October 2010
+
+              \item {\sl Dynamics of RIB Usage at an Edge Router} (Poster), Kaustubh Gadkari, Steve DiBenedetto,
+               Dan Massey and Christos Papadopoulos, ${18^{th}}$ International Conference on Network Protocols (ICNP 2010), October 2010
+
+               \item {\sl Characterizing TCP Resets in Established Connections}, Nicholas Diel, Kaustubh Gadkari, Steve DiBenedetto,
+              Andrea Steiner and Christos Papadopoulos,
+              Technical Report {\emph {CS-08-102}}.
+             \end{enumerate}
+
+\section{EXPERTISE AND SKILLS}
+	\begin{itemize}
+		\item Programming Languages: C, C++, Perl and Python.
+		\item Operating Systems: Windows, GNU/Linux and OS X.
+		\item Other software: Microsoft Office, R, LaTeX.
+		\item Expertise in network data analysis and working with terabytes of packet-level and flow-level network traces.
+		\item Extensive experience with Perl and Python and automating data
+			visualization with GNUplot and matplotlib.
+	\end{itemize}
+
+\section{SERVICES}
+	\begin{itemize}
+                \item Web and Publications Chair, $4^{th}$ Workshop on Secure Network Protocols, 2008
+                \item Ad hoc reviewer for conferences/workshops like INFOCOM 2013, INFOCOM 2010, GLOBECOM 2011 and NPSec 2008.
+                \item Helped organize CANVAS 2008, which was a computer security vulnerability assessment game for undergraduate students.
+         \end{itemize}
+
+
+
+\section{ACADEMIC MEMBERSHIPS}
+	\begin{itemize}
+		\item ACM Student Member
+		\item IEEE Student Member
+		\item Internet Society (ISOC)
+		\item Colorado Chapter of the ISOC
+	\end{itemize}
+
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
